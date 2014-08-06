@@ -6,7 +6,7 @@ ExecJS wrapper for Google's libphonenumber library
 
 Gemfile:
 
-    gem 'libphonenumber-execjs', :github => 'hrishabhz/libphonenumber-execjs'
+    gem 'libphonenumber-execjs', :github => 'praveeny1986/libphonenumber-execjs'
 
 ## Getting Started
 
