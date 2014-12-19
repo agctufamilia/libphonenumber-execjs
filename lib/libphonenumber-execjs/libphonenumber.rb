@@ -57,7 +57,7 @@ class Libphonenumber
     ', str, default_region
     if @parse['util']
       tmp = []
-      @parse['util']['values_'].map{|k,v| tmp[k] = v}
+      @parse['util']['values_'].map{|k,v| tmp[k.to_i] = v}
       @parse['util']['values_'] = tmp
     end
     @parse.to_openstruct
